@@ -1,0 +1,1008 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Aug 16 20:21:43 2025
+# Process ID: 2990256
+# Current directory: /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1
+# Command line: vivado -log DMA_LED_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DMA_LED_wrapper.tcl -notrace
+# Log file: /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper.vdi
+# Journal file: /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/vivado.jou
+# Running On        :resi08
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 20.04.6 LTS
+# Processor Detail  :Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz
+# CPU Frequency     :1000.049 MHz
+# CPU Physical cores:24
+# CPU Logical cores :48
+# Host memory       :303916 MB
+# Swap memory       :1279 MB
+# Total Virtual     :305195 MB
+# Available Virtual :242977 MB
+#-----------------------------------------------------------
+source DMA_LED_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1456.164 ; gain = 45.805 ; free physical = 12993 ; free virtual = 231337
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/nas/ei/home/ge43set/ip_repo/LEDAdderIP_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/nas/ei/home/ge43set/ip_repo/LEDAdderDMA_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/nas/ei/home/ge43set/ip_repo/LEDAccumulator_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/nfs/tools/xilinx/Vivado/2024.1/data/ip'.
+Command: link_design -top DMA_LED_wrapper -part xck26-sfvc784-2LV-c
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_LEDAdderIP_0_0/DMA_LED_LEDAdderIP_0_0.dcp' for cell 'DMA_LED_i/LEDAdderIP_0'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0.dcp' for cell 'DMA_LED_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0.dcp' for cell 'DMA_LED_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/DMA_LED_smartconnect_0_0.dcp' for cell 'DMA_LED_i/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0.dcp' for cell 'DMA_LED_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xbar_0/DMA_LED_xbar_0.dcp' for cell 'DMA_LED_i/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_auto_pc_0/DMA_LED_auto_pc_0.dcp' for cell 'DMA_LED_i/axi_interconnect_0/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_auto_pc_1/DMA_LED_auto_pc_1.dcp' for cell 'DMA_LED_i/axi_interconnect_0/s01_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.26 . Memory (MB): peak = 2478.246 ; gain = 0.000 ; free physical = 11921 ; free virtual = 230296
+INFO: [Netlist 29-17] Analyzing 115 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:178]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc:184]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_17/bd_9be7_sawn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc] for cell 'DMA_LED_i/smartconnect_0/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:1]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:2]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:3]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:4]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:5]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:6]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:8]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:9]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc:10]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/smartconnect.xdc] for cell 'DMA_LED_i/smartconnect_0/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:178]
+INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc:184]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_25/bd_9be7_m00bn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:70]
+INFO: [Common 17-14] Message 'Vivado_Tcl 4-921' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc:70]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_24/bd_9be7_m00wn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_23/bd_9be7_m00awn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_23/bd_9be7_m00awn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_22/bd_9be7_m00rn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_22/bd_9be7_m00rn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_21/bd_9be7_m00arn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_21/bd_9be7_m00arn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_19/bd_9be7_sbn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_19/bd_9be7_sbn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_18/bd_9be7_swn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_18/bd_9be7_swn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0.xdc] for cell 'DMA_LED_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0.xdc] for cell 'DMA_LED_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_12/bd_9be7_srn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_12/bd_9be7_srn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_11/bd_9be7_sarn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_11/bd_9be7_sarn_0_clocks.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_1/bd_9be7_psr_aclk_0.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_1/bd_9be7_psr_aclk_0.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_1/bd_9be7_psr_aclk_0_board.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/bd_0/ip/ip_1/bd_9be7_psr_aclk_0_board.xdc] for cell 'DMA_LED_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0.xdc] for cell 'DMA_LED_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0.xdc] for cell 'DMA_LED_i/proc_sys_reset_0/U0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0_board.xdc] for cell 'DMA_LED_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0_board.xdc] for cell 'DMA_LED_i/proc_sys_reset_0/U0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0.xdc] for cell 'DMA_LED_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0.xdc] for cell 'DMA_LED_i/axi_dma_0/U0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.srcs/constrs_1/new/default.xdc]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.srcs/constrs_1/new/default.xdc]
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0_clocks.xdc] for cell 'DMA_LED_i/axi_dma_0/U0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0_clocks.xdc] for cell 'DMA_LED_i/axi_dma_0/U0'
+INFO: [Project 1-1714] 46 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 458 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3682.359 ; gain = 0.000 ; free physical = 11163 ; free virtual = 229539
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 82 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 79 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+24 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 3682.359 ; gain = 2163.688 ; free physical = 11163 ; free virtual = 229539
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3682.359 ; gain = 0.000 ; free physical = 11130 ; free virtual = 229505
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.56 . Memory (MB): peak = 3682.359 ; gain = 0.000 ; free physical = 11138 ; free virtual = 229514
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10833 ; free virtual = 229209
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Phase 1 Initialization | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10831 ; free virtual = 229207
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.19 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10827 ; free virtual = 229203
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:00.71 ; elapsed = 00:00:00.23 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10823 ; free virtual = 229198
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1da43177a
+
+Time (s): cpu = 00:00:00.71 ; elapsed = 00:00:00.24 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10823 ; free virtual = 229198
+
+Phase 3 Retarget
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 2 inverters resulting in an inversion of 21 pins
+INFO: [Opt 31-138] Pushed 56 inverter(s) to 1303 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 244373b8c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.65 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10831 ; free virtual = 229206
+Retarget | Checksum: 244373b8c
+INFO: [Opt 31-389] Phase Retarget created 78 cells and removed 441 cells
+INFO: [Opt 31-1021] In phase Retarget, 40 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 154f579d6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.79 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10830 ; free virtual = 229205
+Constant propagation | Checksum: 154f579d6
+INFO: [Opt 31-389] Phase Constant propagation created 34 cells and removed 545 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 40 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1a00066ae
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Sweep | Checksum: 1a00066ae
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 483 cells
+INFO: [Opt 31-1021] In phase Sweep, 52 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 6 BUFG optimization | Checksum: 1a00066ae
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+BUFG optimization | Checksum: 1a00066ae
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1a00066ae
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Shift Register Optimization | Checksum: 1a00066ae
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 16d0fe2a9
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Post Processing Netlist | Checksum: 16d0fe2a9
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 40 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 1971052d7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 1971052d7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Phase 9 Finalization | Checksum: 1971052d7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              78  |             441  |                                             40  |
+|  Constant propagation         |              34  |             545  |                                             40  |
+|  Sweep                        |               1  |             483  |                                             52  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             40  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1971052d7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3830.191 ; gain = 0.000 ; free physical = 10832 ; free virtual = 229207
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 1 newly gated: 0 Total Ports: 4
+Ending PowerOpt Patch Enables Task | Checksum: 19a4da7a9
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 4110.262 ; gain = 0.000 ; free physical = 10713 ; free virtual = 229088
+Ending Power Optimization Task | Checksum: 19a4da7a9
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 4110.262 ; gain = 280.070 ; free physical = 10713 ; free virtual = 229088
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 19a4da7a9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4110.262 ; gain = 0.000 ; free physical = 10713 ; free virtual = 229088
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4110.262 ; gain = 0.000 ; free physical = 10713 ; free virtual = 229088
+Ending Netlist Obfuscation Task | Checksum: 1b5492398
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4110.262 ; gain = 0.000 ; free physical = 10713 ; free virtual = 229088
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 4110.262 ; gain = 427.902 ; free physical = 10713 ; free virtual = 229088
+INFO: [Vivado 12-24828] Executing command : report_drc -file DMA_LED_wrapper_drc_opted.rpt -pb DMA_LED_wrapper_drc_opted.pb -rpx DMA_LED_wrapper_drc_opted.rpx
+Command: report_drc -file DMA_LED_wrapper_drc_opted.rpt -pb DMA_LED_wrapper_drc_opted.pb -rpx DMA_LED_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_VDISTR
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_VROUTE
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_HDISTR
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_HROUTE
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_BUFG
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_LEAF
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 4737.340 ; gain = 627.078 ; free physical = 9972 ; free virtual = 228347
+generate_parallel_reports: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 4737.340 ; gain = 627.078 ; free physical = 9972 ; free virtual = 228347
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9972 ; free virtual = 228348
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9972 ; free virtual = 228348
+Writing XDEF routing.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.04 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9972 ; free virtual = 228349
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.3 ; elapsed = 00:00:00.09 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9972 ; free virtual = 228350
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9971 ; free virtual = 228350
+Wrote Device Cache: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9967 ; free virtual = 228350
+Write Physdb Complete: Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.18 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9966 ; free virtual = 228349
+INFO: [Common 17-1381] The checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9959 ; free virtual = 228350
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 11b0a1fe1
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9959 ; free virtual = 228350
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9959 ; free virtual = 228350
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1d6333ee3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9958 ; free virtual = 228348
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 2765cf87f
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9945 ; free virtual = 228336
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 2765cf87f
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9944 ; free virtual = 228334
+Phase 1 Placer Initialization | Checksum: 2765cf87f
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9935 ; free virtual = 228325
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 21a2fd592
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9949 ; free virtual = 228340
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+INFO: [Place 30-3162] Check ILP status : ILP-based clock placer completed successfully.
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 21a2fd592
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 4737.340 ; gain = 0.000 ; free physical = 9949 ; free virtual = 228340
+
+Phase 2.1.1.3 PBP: Compute Congestion
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 21a2fd592
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:09 . Memory (MB): peak = 4952.320 ; gain = 214.980 ; free physical = 9693 ; free virtual = 228084
+
+Phase 2.1.1.4 PBP: UpdateTiming
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 2cdc3d44e
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 4984.336 ; gain = 246.996 ; free physical = 9689 ; free virtual = 228079
+
+Phase 2.1.1.5 PBP: Add part constraints
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 2cdc3d44e
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 4984.336 ; gain = 246.996 ; free physical = 9687 ; free virtual = 228078
+Phase 2.1.1 Partition Driven Placement | Checksum: 2cdc3d44e
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 4984.336 ; gain = 246.996 ; free physical = 9685 ; free virtual = 228076
+Phase 2.1 Floorplanning | Checksum: 21d168721
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 4984.336 ; gain = 246.996 ; free physical = 9684 ; free virtual = 228075
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 21d168721
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 4984.336 ; gain = 246.996 ; free physical = 9682 ; free virtual = 228073
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 21d168721
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 4984.336 ; gain = 246.996 ; free physical = 9678 ; free virtual = 228068
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 2a5324fd3
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:21 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9638 ; free virtual = 228028
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 354 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 124 nets or LUTs. Breaked 0 LUT, combined 124 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 1 candidate driver set for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 0 net.  Re-placed 0 instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5031.336 ; gain = 0.000 ; free physical = 9637 ; free virtual = 228028
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            124  |                   124  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            124  |                   124  |           0  |           5  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 21b0900c3
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:22 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9616 ; free virtual = 228007
+Phase 2.4 Global Placement Core | Checksum: 1762a5187
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:00:26 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9638 ; free virtual = 228029
+Phase 2 Global Placement | Checksum: 1762a5187
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:00:26 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9638 ; free virtual = 228029
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 177e28d1f
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:00:30 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9640 ; free virtual = 228030
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 209050a1c
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:31 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9627 ; free virtual = 228018
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 200262fa0
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:00:35 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9642 ; free virtual = 228032
+
+Phase 3.3.2 Slice Area Swap
+
+Phase 3.3.2.1 Slice Area Swap Initial
+Phase 3.3.2.1 Slice Area Swap Initial | Checksum: 1f6f08fc7
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:36 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9641 ; free virtual = 228032
+Phase 3.3.2 Slice Area Swap | Checksum: 1f6f08fc7
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:36 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9641 ; free virtual = 228032
+Phase 3.3 Small Shape DP | Checksum: 22185b90d
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:00:36 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9622 ; free virtual = 228013
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 1a95175b9
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:37 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9623 ; free virtual = 228013
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 1b3ce006c
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:37 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9628 ; free virtual = 228019
+Phase 3 Detail Placement | Checksum: 1b3ce006c
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:37 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9641 ; free virtual = 228032
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 17d2c0212
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=6.033 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 12e95cba6
+
+Time (s): cpu = 00:00:00.6 ; elapsed = 00:00:00.14 . Memory (MB): peak = 5031.336 ; gain = 0.000 ; free physical = 9641 ; free virtual = 228032
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 1e8cf4e26
+
+Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.23 . Memory (MB): peak = 5031.336 ; gain = 0.000 ; free physical = 9641 ; free virtual = 228032
+Phase 4.1.1.1 BUFG Insertion | Checksum: 17d2c0212
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:00:43 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9641 ; free virtual = 228032
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=6.033. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 19410d911
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:00:43 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9641 ; free virtual = 228032
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:00:43 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9641 ; free virtual = 228032
+Phase 4.1 Post Commit Optimization | Checksum: 19410d911
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:00:43 . Memory (MB): peak = 5031.336 ; gain = 293.996 ; free physical = 9643 ; free virtual = 228033
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9595 ; free virtual = 227985
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 172fba9e2
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:00:50 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                1x1|                1x1|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                1x1|                1x1|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                1x1|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 172fba9e2
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:00:50 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+Phase 4.3 Placer Reporting | Checksum: 172fba9e2
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:00:50 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9594 ; free virtual = 227985
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:00:50 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 20abd5c2a
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:00:50 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+Ending Placer Task | Checksum: 1c53ccd88
+
+Time (s): cpu = 00:02:36 ; elapsed = 00:00:50 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+92 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:42 ; elapsed = 00:00:52 . Memory (MB): peak = 5046.320 ; gain = 308.980 ; free physical = 9594 ; free virtual = 227985
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 3 threads.
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file DMA_LED_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.45 ; elapsed = 00:00:00.36 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9570 ; free virtual = 227961
+INFO: [Vivado 12-24828] Executing command : report_utilization -file DMA_LED_wrapper_utilization_placed.rpt -pb DMA_LED_wrapper_utilization_placed.pb
+INFO: [Vivado 12-24828] Executing command : report_io -file DMA_LED_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.7 ; elapsed = 00:00:00.54 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9593 ; free virtual = 227984
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.05 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9590 ; free virtual = 227984
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.44 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9584 ; free virtual = 227989
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9584 ; free virtual = 227988
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.09 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9571 ; free virtual = 227976
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9569 ; free virtual = 227975
+Wrote Device Cache: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9561 ; free virtual = 227971
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.69 . Memory (MB): peak = 5046.320 ; gain = 0.000 ; free physical = 9576 ; free virtual = 227985
+INFO: [Common 17-1381] The checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:01 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9552 ; free virtual = 227967
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 6.031 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+103 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.05 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9558 ; free virtual = 227976
+Wrote PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.44 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9552 ; free virtual = 227980
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9546 ; free virtual = 227975
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.2 ; elapsed = 00:00:00.07 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9560 ; free virtual = 227988
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9559 ; free virtual = 227988
+Wrote Device Cache: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9556 ; free virtual = 227989
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.8 . Memory (MB): peak = 5070.332 ; gain = 0.000 ; free physical = 9556 ; free virtual = 227989
+INFO: [Common 17-1381] The checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 22bdb3d7 ConstDB: 0 ShapeSum: fd7cc294 RouteDB: a502571d
+Nodegraph reading from file.  Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.66 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9547 ; free virtual = 227985
+Post Restoration Checksum: NetGraph: cbdd884e | NumContArr: 6431deaf | Constraints: c63c91a0 | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 2b8f4f33a
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9545 ; free virtual = 227984
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 2b8f4f33a
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9545 ; free virtual = 227983
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 2b8f4f33a
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9545 ; free virtual = 227983
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 34fbe1fd3
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9545 ; free virtual = 227984
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1e53643b9
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9547 ; free virtual = 227985
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=6.158  | TNS=0.000  | WHS=-0.072 | THS=-114.287|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 9914
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 8587
+  Number of Partially Routed Nets     = 1327
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1e3ea067c
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9547 ; free virtual = 227986
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 1e3ea067c
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9547 ; free virtual = 227986
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 2b580e8a1
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9547 ; free virtual = 227986
+Phase 4 Initial Routing | Checksum: 2b755e1df
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9547 ; free virtual = 227986
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 1876
+ Number of Nodes with overlaps = 101
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.744  | TNS=0.000  | WHS=-0.025 | THS=-0.221 |
+
+Phase 5.1 Global Iteration 0 | Checksum: 277c359e9
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:15 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9549 ; free virtual = 227988
+
+Phase 5.2 Additional Iteration for Hold
+Phase 5.2 Additional Iteration for Hold | Checksum: 27a241cf7
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:15 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9550 ; free virtual = 227989
+Phase 5 Rip-up And Reroute | Checksum: 27a241cf7
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:15 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9550 ; free virtual = 227989
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.744  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.744  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 6.1 Delay CleanUp | Checksum: 2776fc3e8
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:16 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9551 ; free virtual = 227989
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 2776fc3e8
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:16 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9551 ; free virtual = 227989
+Phase 6 Delay and Skew Optimization | Checksum: 2776fc3e8
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:16 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9551 ; free virtual = 227989
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.744  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9551 ; free virtual = 227990
+Phase 7 Post Hold Fix | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9551 ; free virtual = 227990
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.01261 %
+  Global Horizontal Routing Utilization  = 1.05432 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9552 ; free virtual = 227991
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9552 ; free virtual = 227991
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9552 ; free virtual = 227991
+
+Phase 11 Resolve XTalk
+Phase 11 Resolve XTalk | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9549 ; free virtual = 227988
+
+Phase 12 Post Process Routing
+Phase 12 Post Process Routing | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9537 ; free virtual = 227975
+
+Phase 13 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.744  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 13 Post Router Timing | Checksum: 27e5e0385
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:17 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9543 ; free virtual = 227982
+Total Elapsed time in route_design: 17.47 secs
+
+Phase 14 Post-Route Event Processing
+Phase 14 Post-Route Event Processing | Checksum: 1e7877176
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:18 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9540 ; free virtual = 227978
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 1e7877176
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:18 . Memory (MB): peak = 5078.336 ; gain = 0.000 ; free physical = 9545 ; free virtual = 227984
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+119 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:59 ; elapsed = 00:00:19 . Memory (MB): peak = 5078.336 ; gain = 8.004 ; free physical = 9546 ; free virtual = 227984
+INFO: [Vivado 12-24828] Executing command : report_drc -file DMA_LED_wrapper_drc_routed.rpt -pb DMA_LED_wrapper_drc_routed.pb -rpx DMA_LED_wrapper_drc_routed.rpx
+Command: report_drc -file DMA_LED_wrapper_drc_routed.rpt -pb DMA_LED_wrapper_drc_routed.pb -rpx DMA_LED_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [Vivado 12-24828] Executing command : report_methodology -file DMA_LED_wrapper_methodology_drc_routed.rpt -pb DMA_LED_wrapper_methodology_drc_routed.pb -rpx DMA_LED_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file DMA_LED_wrapper_methodology_drc_routed.rpt -pb DMA_LED_wrapper_methodology_drc_routed.pb -rpx DMA_LED_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -report_unconstrained -file DMA_LED_wrapper_timing_summary_routed.rpt -pb DMA_LED_wrapper_timing_summary_routed.pb -rpx DMA_LED_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Vivado 12-24838] Running report commands "report_bus_skew, report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 3 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file DMA_LED_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file DMA_LED_wrapper_route_status.rpt -pb DMA_LED_wrapper_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file DMA_LED_wrapper_bus_skew_routed.rpt -pb DMA_LED_wrapper_bus_skew_routed.pb -rpx DMA_LED_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2LV, Temperature grade: C, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Vivado 12-24828] Executing command : report_power -file DMA_LED_wrapper_power_routed.rpt -pb DMA_LED_wrapper_power_summary_routed.pb -rpx DMA_LED_wrapper_power_routed.rpx
+Command: report_power -file DMA_LED_wrapper_power_routed.rpt -pb DMA_LED_wrapper_power_summary_routed.pb -rpx DMA_LED_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+139 Infos, 109 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9533 ; free virtual = 227979
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file DMA_LED_wrapper_clock_utilization_routed.rpt
+WARNING: [Device 21-9320] Failed to find the Oracle tile group with name 'HSR_BOUNDARY_TOP'. This is required for Clock regions and Virtual grid.
+WARNING: [Device 21-2174] Failed to initialize Virtual grid.
+generate_parallel_reports: Time (s): cpu = 00:00:35 ; elapsed = 00:00:17 . Memory (MB): peak = 5134.363 ; gain = 56.027 ; free physical = 9518 ; free virtual = 227965
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.2 ; elapsed = 00:00:00.06 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9515 ; free virtual = 227964
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.45 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9517 ; free virtual = 227977
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9513 ; free virtual = 227973
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.6 ; elapsed = 00:00:00.22 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9502 ; free virtual = 227963
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9521 ; free virtual = 227983
+Wrote Device Cache: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9517 ; free virtual = 227983
+Write Physdb Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.83 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9517 ; free virtual = 227982
+INFO: [Common 17-1381] The checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/impl_1/DMA_LED_wrapper_routed.dcp' has been generated.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_LED_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_LED_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <DMA_LED_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <DMA_LED_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <DMA_LED_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <DMA_LED_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force DMA_LED_wrapper.bit -bin_file
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (DMA_LED_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+WARNING: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (DMA_LED_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 38621696 bits.
+Writing bitstream ./DMA_LED_wrapper.bit...
+Writing bitstream ./DMA_LED_wrapper.bin...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+169 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 5134.363 ; gain = 0.000 ; free physical = 9505 ; free virtual = 227983
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 16 20:25:04 2025...

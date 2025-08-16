@@ -1,0 +1,462 @@
+
+*** Running vivado
+    with args -log DMA_LED_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DMA_LED_wrapper.tcl
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat Aug 16 20:20:24 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source DMA_LED_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1456.168 ; gain = 45.805 ; free physical = 12994 ; free virtual = 231306
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/nas/ei/home/ge43set/ip_repo/LEDAdderIP_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/nas/ei/home/ge43set/ip_repo/LEDAdderDMA_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/nas/ei/home/ge43set/ip_repo/LEDAccumulator_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/nfs/tools/xilinx/Vivado/2024.1/data/ip'.
+add_files: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1514.707 ; gain = 40.727 ; free physical = 12943 ; free virtual = 231245
+Command: synth_design -top DMA_LED_wrapper -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 2988897
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2773.852 ; gain = 298.602 ; free physical = 11387 ; free virtual = 229721
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_wrapper' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/hdl/DMA_LED_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:13]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_LEDAdderIP_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_LEDAdderIP_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_LEDAdderIP_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_LEDAdderIP_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm00_axis_tstrb' of module 'DMA_LED_LEDAdderIP_0_0' is unconnected for instance 'LEDAdderIP_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:213]
+WARNING: [Synth 8-7023] instance 'LEDAdderIP_0' of module 'DMA_LED_LEDAdderIP_0_0' has 37 connections declared, but only 36 given [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:213]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_axi_dma_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_axi_dma_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_axi_dma_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'DMA_LED_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:250]
+WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'DMA_LED_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:250]
+WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'DMA_LED_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:250]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'DMA_LED_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:250]
+WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'DMA_LED_axi_dma_0_0' has 64 connections declared, but only 60 given [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:250]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_axi_interconnect_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:648]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_HNPJQF' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:1432]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_HNPJQF' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:1432]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1F20G9W' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:1557]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1F20G9W' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:1557]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1F7ZXDN' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:1703]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_auto_pc_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_auto_pc_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1F7ZXDN' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:1703]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_HJOPH4' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:2005]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_auto_pc_1' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_auto_pc_1' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_HJOPH4' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:2005]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_xbar_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_xbar_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_axi_interconnect_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:648]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_proc_sys_reset_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_proc_sys_reset_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'DMA_LED_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:431]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'DMA_LED_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:431]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'DMA_LED_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:431]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'DMA_LED_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:431]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'DMA_LED_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:431]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_smartconnect_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_smartconnect_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_smartconnect_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awcache' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M00_AXI_arcache' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awid' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awaddr' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awlen' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awsize' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awburst' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awlock' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awcache' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awprot' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awregion' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awqos' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awuser' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_awvalid' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_wid' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_wdata' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_wstrb' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_wlast' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_wuser' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_wvalid' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_bready' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arid' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_araddr' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arlen' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arsize' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arburst' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arlock' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arcache' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arprot' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arregion' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arqos' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_aruser' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_arvalid' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7071] port 'M01_AXI_rready' of module 'DMA_LED_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'DMA_LED_smartconnect_0_0' has 113 connections declared, but only 77 given [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:438]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_xlconcat_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlconcat_0_0/synth/DMA_LED_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_6_xlconcat' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_6_xlconcat' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_xlconcat_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlconcat_0_0/synth/DMA_LED_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_xlconstant_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlconstant_0_0/synth/DMA_LED_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_xlconstant_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlconstant_0_0/synth/DMA_LED_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_xlconstant_1_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlconstant_1_0/synth/DMA_LED_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant__parameterized0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant__parameterized0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_xlconstant_1_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlconstant_1_0/synth/DMA_LED_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_xlslice_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlslice_0_0/synth/DMA_LED_xlslice_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_4_xlslice' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/a97c/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_4_xlslice' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ipshared/a97c/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_xlslice_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xlslice_0_0/synth/DMA_LED_xlslice_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'DMA_LED_zynq_ultra_ps_e_0_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_zynq_ultra_ps_e_0_0' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/.Xil/Vivado-2987849-resi08/realtime/DMA_LED_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7071] port 'maxigp2_awuser' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7071] port 'maxigp2_aruser' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7071] port 'saxigp0_bid' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7071] port 'saxigp0_rid' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7071] port 'emio_enet0_enet_tsu_timer_cnt' of module 'DMA_LED_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'DMA_LED_zynq_ultra_ps_e_0_0' has 125 connections declared, but only 118 given [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:527]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/synth/DMA_LED.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_LED_wrapper' (0#1) [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/hdl/DMA_LED_wrapper.v:13]
+WARNING: [Synth 8-7129] Port Din[2] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In2[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In63[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In64[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In65[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In66[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In67[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In68[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In69[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In70[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In71[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In72[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In73[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In74[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In75[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In78[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In79[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In80[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In81[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In87[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In88[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In89[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In90[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In91[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In92[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In93[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In94[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In95[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In96[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In97[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In98[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In99[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2859.820 ; gain = 384.570 ; free physical = 11270 ; free virtual = 229607
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2865.758 ; gain = 390.508 ; free physical = 11279 ; free virtual = 229616
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2865.758 ; gain = 390.508 ; free physical = 11279 ; free virtual = 229616
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2865.758 ; gain = 0.000 ; free physical = 11263 ; free virtual = 229600
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'DMA_LED_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0/DMA_LED_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'DMA_LED_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0_in_context.xdc] for cell 'DMA_LED_i/axi_dma_0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0/DMA_LED_axi_dma_0_0_in_context.xdc] for cell 'DMA_LED_i/axi_dma_0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0_in_context.xdc] for cell 'DMA_LED_i/proc_sys_reset_0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0/DMA_LED_proc_sys_reset_0_0_in_context.xdc] for cell 'DMA_LED_i/proc_sys_reset_0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/DMA_LED_smartconnect_0_0/DMA_LED_smartconnect_0_0_in_context.xdc] for cell 'DMA_LED_i/smartconnect_0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_smartconnect_0_0/DMA_LED_smartconnect_0_0/DMA_LED_smartconnect_0_0_in_context.xdc] for cell 'DMA_LED_i/smartconnect_0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xbar_0/DMA_LED_xbar_0/DMA_LED_xbar_0_in_context.xdc] for cell 'DMA_LED_i/axi_interconnect_0/xbar'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_xbar_0/DMA_LED_xbar_0/DMA_LED_xbar_0_in_context.xdc] for cell 'DMA_LED_i/axi_interconnect_0/xbar'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_auto_pc_0/DMA_LED_auto_pc_0/DMA_LED_auto_pc_0_in_context.xdc] for cell 'DMA_LED_i/axi_interconnect_0/s00_couplers/auto_pc'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_auto_pc_0/DMA_LED_auto_pc_0/DMA_LED_auto_pc_0_in_context.xdc] for cell 'DMA_LED_i/axi_interconnect_0/s00_couplers/auto_pc'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_auto_pc_1/DMA_LED_auto_pc_1/DMA_LED_auto_pc_0_in_context.xdc] for cell 'DMA_LED_i/axi_interconnect_0/s01_couplers/auto_pc'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_auto_pc_1/DMA_LED_auto_pc_1/DMA_LED_auto_pc_0_in_context.xdc] for cell 'DMA_LED_i/axi_interconnect_0/s01_couplers/auto_pc'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_LEDAdderIP_0_0/DMA_LED_LEDAdderIP_0_0/DMA_LED_LEDAdderIP_0_0_in_context.xdc] for cell 'DMA_LED_i/LEDAdderIP_0'
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.gen/sources_1/bd/DMA_LED/ip/DMA_LED_LEDAdderIP_0_0/DMA_LED_LEDAdderIP_0_0/DMA_LED_LEDAdderIP_0_0_in_context.xdc] for cell 'DMA_LED_i/LEDAdderIP_0'
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.srcs/constrs_1/new/default.xdc]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.srcs/constrs_1/new/default.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.srcs/constrs_1/new/default.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DMA_LED_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DMA_LED_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2941.664 ; gain = 0.000 ; free physical = 11272 ; free virtual = 229609
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2941.664 ; gain = 0.000 ; free physical = 11272 ; free virtual = 229609
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2941.664 ; gain = 466.414 ; free physical = 11262 ; free virtual = 229602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2949.668 ; gain = 474.418 ; free physical = 11262 ; free virtual = 229602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/axi_dma_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/proc_sys_reset_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/xlconcat_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/smartconnect_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/axi_interconnect_0/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/axi_interconnect_0/s00_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/axi_interconnect_0/s01_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/axi_interconnect_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/xlconstant_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/xlconstant_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/LEDAdderIP_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for DMA_LED_i/xlslice_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2949.668 ; gain = 474.418 ; free physical = 11253 ; free virtual = 229593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2949.668 ; gain = 474.418 ; free physical = 11269 ; free virtual = 229612
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2949.668 ; gain = 474.418 ; free physical = 11267 ; free virtual = 229614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 3414.793 ; gain = 939.543 ; free physical = 10860 ; free virtual = 229207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 3414.793 ; gain = 939.543 ; free physical = 10858 ; free virtual = 229205
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 3425.809 ; gain = 950.559 ; free physical = 10853 ; free virtual = 229201
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |DMA_LED_LEDAdderIP_0_0      |         1|
+|2     |DMA_LED_axi_dma_0_0         |         1|
+|3     |DMA_LED_xbar_0              |         1|
+|4     |DMA_LED_auto_pc_0           |         1|
+|5     |DMA_LED_auto_pc_1           |         1|
+|6     |DMA_LED_proc_sys_reset_0_0  |         1|
+|7     |DMA_LED_smartconnect_0_0    |         1|
+|8     |DMA_LED_zynq_ultra_ps_e_0_0 |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------+------+
+|      |Cell                      |Count |
++------+--------------------------+------+
+|1     |DMA_LED_LEDAdderIP_0      |     1|
+|2     |DMA_LED_auto_pc           |     2|
+|4     |DMA_LED_axi_dma_0         |     1|
+|5     |DMA_LED_proc_sys_reset_0  |     1|
+|6     |DMA_LED_smartconnect_0    |     1|
+|7     |DMA_LED_xbar              |     1|
+|8     |DMA_LED_zynq_ultra_ps_e_0 |     1|
+|9     |OBUF                      |     3|
++------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10859 ; free virtual = 229206
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 3439.684 ; gain = 888.527 ; free physical = 10858 ; free virtual = 229206
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 3439.684 ; gain = 964.434 ; free physical = 10858 ; free virtual = 229206
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3439.684 ; gain = 0.000 ; free physical = 11152 ; free virtual = 229500
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3439.684 ; gain = 0.000 ; free physical = 11154 ; free virtual = 229501
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 70d9b8f8
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 159 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 3439.684 ; gain = 1924.977 ; free physical = 11154 ; free virtual = 229501
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2922.797; main = 2572.434; forked = 397.175
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4447.449; main = 3415.797; forked = 1031.652
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3439.684 ; gain = 0.000 ; free physical = 11154 ; free virtual = 229501
+INFO: [Common 17-1381] The checkpoint '/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/PS-PL-DMA-LED-URAM.runs/synth_1/DMA_LED_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file DMA_LED_wrapper_utilization_synth.rpt -pb DMA_LED_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 16 20:21:37 2025...

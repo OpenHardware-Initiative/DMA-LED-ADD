@@ -1,0 +1,766 @@
+TRACE::2025-08-16.20:57:13::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:13::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:13::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:15::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:15::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:15::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:15::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened new HwDB with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-08-16.20:57:22::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kria_dma_led_add",
+	"systems":	[{
+			"systemName":	"kria_dma_led_add",
+			"systemDesc":	"kria_dma_led_add",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kria_dma_led_add"
+		}]
+}
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:22::SCWDomain::checking for install qemu data   : 
+TRACE::2025-08-16.20:57:22::SCWDomain:: Using the QEMU Data from install at  : /nfs/tools/xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-08-16.20:57:22::SCWDomain:: Using the QEMU args  from install at  : /nfs/tools/xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-08-16.20:57:22::SCWDomain:: Using the PMUQEMU args from install at  : /nfs/tools/xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:22::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:22::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:22::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:22::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-08-16.20:57:22::SCWMssOS::No sw design opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::mss does not exists at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::Creating sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::Adding the swdes entry, created swdb /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::updating the scw layer changes to swdes at   /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::Writing mss at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:22::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-16.20:57:22::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-08-16.20:57:22::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-08-16.20:57:22::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-16.20:57:22::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-08-16.20:57:42::SCWMssOS::Saving the mss changes /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name system
+TRACE::2025-08-16.20:57:42::SCWMssOS::Writing the mss file completed /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::Commit changes completed.
+TRACE::2025-08-16.20:57:42::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:42::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:42::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:42::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:42::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:42::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:42::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:42::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:42::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:42::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:42::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kria_dma_led_add",
+	"systems":	[{
+			"systemName":	"kria_dma_led_add",
+			"systemDesc":	"kria_dma_led_add",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kria_dma_led_add",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"9c8f85ba83d2381a25a072338b06872b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-08-16.20:57:42::SCWPlatform::Started generating the artifacts platform kria_dma_led_add
+TRACE::2025-08-16.20:57:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-08-16.20:57:42::SCWPlatform::Started generating the artifacts for system configuration kria_dma_led_add
+LOG::2025-08-16.20:57:42::SCWSystem::Checking the domain device_tree_domain
+LOG::2025-08-16.20:57:42::SCWSystem::Not a boot domain 
+LOG::2025-08-16.20:57:42::SCWSystem::Started Processing the domain device_tree_domain
+TRACE::2025-08-16.20:57:42::SCWDomain::Generating domain artifcats
+TRACE::2025-08-16.20:57:42::SCWMssOS::Generating standalone artifcats
+TRACE::2025-08-16.20:57:42::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/qemu/
+TRACE::2025-08-16.20:57:42::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/qemu/
+TRACE::2025-08-16.20:57:42::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/device_tree_domain/qemu/
+TRACE::2025-08-16.20:57:42::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/device_tree_domain/qemu/
+TRACE::2025-08-16.20:57:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-08-16.20:57:42::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:42::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:42::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:42::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:42::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:42::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:42::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-16.20:57:42::SCWMssOS::Mss edits present, copying mssfile into export location /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-08-16.20:57:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-08-16.20:57:42::SCWDomain::Skipping the build for domain :  device_tree_domain
+TRACE::2025-08-16.20:57:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-08-16.20:57:42::SCWMssOS::Copying to export directory.
+TRACE::2025-08-16.20:57:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-08-16.20:57:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-08-16.20:57:42::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-08-16.20:57:42::SCWSystem::Completed Processing the domain device_tree_domain
+LOG::2025-08-16.20:57:42::SCWSystem::Completed Processing the sysconfig kria_dma_led_add
+LOG::2025-08-16.20:57:42::SCWPlatform::Completed generating the artifacts for system configuration kria_dma_led_add
+TRACE::2025-08-16.20:57:42::SCWPlatform::Started preparing the platform 
+TRACE::2025-08-16.20:57:42::SCWSystem::Writing the bif file for system config kria_dma_led_add
+TRACE::2025-08-16.20:57:42::SCWSystem::dir created 
+TRACE::2025-08-16.20:57:42::SCWSystem::Writing the bif 
+TRACE::2025-08-16.20:57:42::SCWPlatform::Started writing the spfm file 
+TRACE::2025-08-16.20:57:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-08-16.20:57:44::SCWPlatform::Completed generating the platform
+TRACE::2025-08-16.20:57:44::SCWMssOS::Saving the mss changes /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-16.20:57:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-16.20:57:44::SCWMssOS::Commit changes completed.
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:44::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:44::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:44::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:44::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kria_dma_led_add",
+	"systems":	[{
+			"systemName":	"kria_dma_led_add",
+			"systemDesc":	"kria_dma_led_add",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kria_dma_led_add",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"9c8f85ba83d2381a25a072338b06872b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-08-16.20:57:44::SCWPlatform::updated the xpfm file.
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:44::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:44::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::Saving the mss changes /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-16.20:57:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-16.20:57:44::SCWMssOS::Commit changes completed.
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:44::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:44::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:44::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:44::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:44::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kria_dma_led_add",
+	"systems":	[{
+			"systemName":	"kria_dma_led_add",
+			"systemDesc":	"kria_dma_led_add",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kria_dma_led_add",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"9c8f85ba83d2381a25a072338b06872b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-08-16.20:57:44::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:44::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::Saving the mss changes /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-16.20:57:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-16.20:57:45::SCWMssOS::Commit changes completed.
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kria_dma_led_add",
+	"systems":	[{
+			"systemName":	"kria_dma_led_add",
+			"systemDesc":	"kria_dma_led_add",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kria_dma_led_add",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree on psu_cortexa53_0",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"9c8f85ba83d2381a25a072338b06872b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:57:45::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:57:45::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:57:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:57:45::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:57:45::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:57:45::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-16.20:57:45::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2025-08-16.20:58:08::SCWPlatform::Started generating the artifacts platform kria_dma_led_add
+TRACE::2025-08-16.20:58:08::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-08-16.20:58:08::SCWPlatform::Started generating the artifacts for system configuration kria_dma_led_add
+LOG::2025-08-16.20:58:08::SCWSystem::Checking the domain device_tree_domain
+LOG::2025-08-16.20:58:08::SCWSystem::Not a boot domain 
+LOG::2025-08-16.20:58:08::SCWSystem::Started Processing the domain device_tree_domain
+TRACE::2025-08-16.20:58:08::SCWDomain::Generating domain artifcats
+TRACE::2025-08-16.20:58:08::SCWMssOS::Generating standalone artifcats
+TRACE::2025-08-16.20:58:08::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/qemu/
+TRACE::2025-08-16.20:58:08::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/qemu/
+TRACE::2025-08-16.20:58:08::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/device_tree_domain/qemu/
+TRACE::2025-08-16.20:58:08::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt To /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/export/kria_dma_led_add/sw/kria_dma_led_add/device_tree_domain/qemu/
+TRACE::2025-08-16.20:58:08::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-08-16.20:58:08::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:58:08::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:58:08::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:08::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:58:08::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-08-16.20:58:08::SCWMssOS::No sw design opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::mss exists loading the mss file  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::Opened the sw design from mss  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::Adding the swdes entry /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name system
+TRACE::2025-08-16.20:58:08::SCWMssOS::updating the scw layer about changes
+TRACE::2025-08-16.20:58:08::SCWMssOS::Opened the sw design.  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-16.20:58:08::SCWMssOS::Mss edits present, copying mssfile into export location /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-08-16.20:58:08::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-08-16.20:58:08::SCWDomain::Building the domain as part of full build :  device_tree_domain
+TRACE::2025-08-16.20:58:08::SCWMssOS::doing bsp build ... 
+TRACE::2025-08-16.20:58:08::SCWMssOS::System Command Ran  cd  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp ; bash -c "make  " 
+TRACE::2025-08-16.20:58:08::SCWMssOS::make: Nothing to be done for 'all'.
+
+TRACE::2025-08-16.20:58:08::SCWMssOS::Copying to export directory.
+TRACE::2025-08-16.20:58:08::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-08-16.20:58:08::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-08-16.20:58:08::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-08-16.20:58:08::SCWSystem::Completed Processing the domain device_tree_domain
+LOG::2025-08-16.20:58:08::SCWSystem::Completed Processing the sysconfig kria_dma_led_add
+LOG::2025-08-16.20:58:08::SCWPlatform::Completed generating the artifacts for system configuration kria_dma_led_add
+TRACE::2025-08-16.20:58:08::SCWPlatform::Started preparing the platform 
+TRACE::2025-08-16.20:58:08::SCWSystem::Writing the bif file for system config kria_dma_led_add
+TRACE::2025-08-16.20:58:08::SCWSystem::dir created 
+TRACE::2025-08-16.20:58:08::SCWSystem::Writing the bif 
+TRACE::2025-08-16.20:58:08::SCWPlatform::Started writing the spfm file 
+TRACE::2025-08-16.20:58:08::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-08-16.20:58:08::SCWPlatform::Completed generating the platform
+TRACE::2025-08-16.20:58:08::SCWMssOS::Saving the mss changes /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-16.20:58:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-16.20:58:08::SCWMssOS::Commit changes completed.
+TRACE::2025-08-16.20:58:08::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:58:08::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:08::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:58:08::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:08::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:58:08::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:08::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:58:09::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:09::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:58:09::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:58:09::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:09::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:58:09::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:09::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:58:09::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:09::SCWWriter::formatted JSON is {
+	"platformName":	"kria_dma_led_add",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"kria_dma_led_add",
+	"platHandOff":	"/nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/DMA_LED_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_LED_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"kria_dma_led_add",
+	"systems":	[{
+			"systemName":	"kria_dma_led_add",
+			"systemDesc":	"kria_dma_led_add",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"kria_dma_led_add",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree on psu_cortexa53_0",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/kria_dma_led_add/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"456960fd6f28bf49d56a78bd53984087",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"device_tree":	{
+							"dt_overlay":	"true",
+							"overlay_custom_dts":	"pl-final.dts",
+							"libOptionNames":	["dt_overlay", "overlay_custom_dts"]
+						},
+						"libsContainingOptions":	["device_tree"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-08-16.20:58:09::SCWPlatform::updated the xpfm file.
+TRACE::2025-08-16.20:58:09::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform::DSA given /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform::DSA absoulate path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform::DSA directory /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw
+TRACE::2025-08-16.20:58:09::SCWPlatform:: Platform Path /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/hw/DMA_LED_wrapper.xsa
+TRACE::2025-08-16.20:58:09::SCWPlatform:: Unique name xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector:kria_dma_led_add:0.0
+TRACE::2025-08-16.20:58:09::SCWPlatform::Trying to set the existing hwdb with name DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:09::SCWPlatform::Opened existing hwdb DMA_LED_wrapper_1
+TRACE::2025-08-16.20:58:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-16.20:58:09::SCWMssOS::Checking the sw design at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-16.20:58:09::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-16.20:58:09::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge43set/PS-PL-DMA-LED-URAM/dtg_output/dtg_output/kria_dma_led_add/psu_cortexa53_0/device_tree_domain/bsp/system.mss
