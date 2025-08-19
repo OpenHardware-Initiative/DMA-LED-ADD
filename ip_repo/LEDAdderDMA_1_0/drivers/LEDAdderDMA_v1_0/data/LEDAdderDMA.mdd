@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER LEDAdderDMA
+	OPTION supported_peripherals = (LEDAdderDMA);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = LEDAdderDMA;
+END DRIVER
