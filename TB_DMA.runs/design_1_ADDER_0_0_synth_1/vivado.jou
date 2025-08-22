@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 21 21:27:58 2025
+# Process ID: 15151
+# Current directory: /home/coppholl/TB_DMA/TB_DMA.runs/design_1_ADDER_0_0_synth_1
+# Command line: vivado -log design_1_ADDER_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ADDER_0_0.tcl
+# Log file: /home/coppholl/TB_DMA/TB_DMA.runs/design_1_ADDER_0_0_synth_1/design_1_ADDER_0_0.vds
+# Journal file: /home/coppholl/TB_DMA/TB_DMA.runs/design_1_ADDER_0_0_synth_1/vivado.jou
+# Running On        :coppholl
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 20.04.6 LTS
+# Processor Detail  :AMD Ryzen 7 4700U with Radeon Graphics
+# CPU Frequency     :1700.000 MHz
+# CPU Physical cores:8
+# CPU Logical cores :8
+# Host memory       :15942 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18089 MB
+# Available Virtual :14165 MB
+#-----------------------------------------------------------
+source design_1_ADDER_0_0.tcl -notrace

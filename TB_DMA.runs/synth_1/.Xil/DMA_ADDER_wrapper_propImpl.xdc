@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:/home/coppholl/TB_DMA/TB_DMA.srcs/constrs_1/new/default.xdc rfile:../../../TB_DMA.srcs/constrs_1/new/default.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A12 [get_ports {fan_en_b[0]}]
+set_property src_info {type:XDC file:1 line:17 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F8 [get_ports {LED0[0]}]
+set_property src_info {type:XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E8 [get_ports {LED1[0]}]

@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.701709",
+   "Default View_TopLeft":"197,304",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace portBus LED0 -pg 1 -lvl 7 -x 2640 -y 390 -defaultsOSRD
+preplace portBus LED1 -pg 1 -lvl 7 -x 2640 -y 410 -defaultsOSRD
+preplace portBus fan_en_b -pg 1 -lvl 7 -x 2640 -y 890 -defaultsOSRD
+preplace inst ADDER_0 -pg 1 -lvl 6 -x 2463 -y 390 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 3 -x 1110 -y 730 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -x 2030 -y 210 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 2 -x 600 -y 650 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 600 -y 480 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 6 -x 2463 -y 890 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 200 -y 390 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1630 -y 170 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 600 -y 810 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -x 600 -y 910 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 6 -x 2463 -y 150 -defaultsOSRD
+preplace inst debug_bridge_0 -pg 1 -lvl 5 -x 2030 -y 790 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 4 -x 1630 -y 770 -defaultsOSRD
+preplace netloc ADDER_0_led0 1 6 1 NJ 390
+preplace netloc ADDER_0_led1 1 6 1 NJ 410
+preplace netloc axi_dma_0_mm2s_introut 1 1 5 450 360 NJ 360 NJ 360 NJ 360 2210
+preplace netloc axi_dma_0_s2mm_introut 1 1 5 460 370 NJ 370 NJ 370 NJ 370 2250
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 3 390J 120 NJ 120 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 5 420 550 NJ 550 1480 380 1850 330 2323
+preplace netloc xlconcat_0_dout 1 2 1 760 480n
+preplace netloc xlconstant_0_dout 1 2 1 750 670n
+preplace netloc xlconstant_1_dout 1 2 1 780 690n
+preplace netloc xlslice_0_Dout 1 6 1 NJ 890
+preplace netloc zynq_ultra_ps_e_0_emio_ttc1_wave_o 1 3 3 1450J 650 NJ 650 2270J
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 20 490 410 750 770 590 1470 390 1820 50 2240
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 4 10 290 NJ 290 NJ 290 1440
+preplace netloc ADDER_0_M00_AXIS 1 4 3 1850 60 2313 20 2610
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 5 1 2313 140n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 1 5 430 340 NJ 340 NJ 340 1780J 70 2220
+preplace netloc axi_dma_0_M_AXI_S2MM 1 1 5 440 350 NJ 350 NJ 350 1830J 80 2210
+preplace netloc axi_interconnect_0_M00_AXI 1 4 2 1790J 90 2230
+preplace netloc axi_interconnect_0_M01_AXI 1 4 1 1840 160n
+preplace netloc ps8_0_axi_periph_M00_AXI 1 4 1 N 770
+preplace netloc smartconnect_0_M00_AXI 1 2 1 N 650
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 3 1 1460 60n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD1 1 3 1 N 710
+levelinfo -pg 1 -10 200 600 1110 1630 2030 2463 2640
+pagesize -pg 1 -db -bbox -sgen -10 0 2790 1680
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_clkrst_cnt":"10",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

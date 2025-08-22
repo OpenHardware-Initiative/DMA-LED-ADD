@@ -1,0 +1,767 @@
+TRACE::2025-08-21.23:01:01::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:01::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:01::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:02::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:02::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:02::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened new HwDB with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-08-21.23:01:12::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"tb",
+	"systems":	[{
+			"systemName":	"tb",
+			"systemDesc":	"tb",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"tb"
+		}]
+}
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:12::SCWDomain::checking for install qemu data   : 
+TRACE::2025-08-21.23:01:12::SCWDomain:: Using the QEMU Data from install at  : /home/coppholl/Xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-08-21.23:01:12::SCWDomain:: Using the QEMU args  from install at  : /home/coppholl/Xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-08-21.23:01:12::SCWDomain:: Using the PMUQEMU args from install at  : /home/coppholl/Xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:12::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:12::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:12::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:12::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-08-21.23:01:12::SCWMssOS::No sw design opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::mss does not exists at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::Creating sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::Adding the swdes entry, created swdb /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::updating the scw layer changes to swdes at   /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::Writing mss at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:12::SCWMssOS::Completed writing the mss file at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-21.23:01:12::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-08-21.23:01:12::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-08-21.23:01:12::SCWMssOS::Completed writing the mss file at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-21.23:01:12::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Saving the mss changes /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name system
+TRACE::2025-08-21.23:01:28::SCWMssOS::Writing the mss file completed /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Commit changes completed.
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"tb",
+	"systems":	[{
+			"systemName":	"tb",
+			"systemDesc":	"tb",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"tb",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/tb/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/tb/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/tb/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a55f2fdc7f879f86835868afa0de62b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-08-21.23:01:28::SCWPlatform::Started generating the artifacts platform tb
+TRACE::2025-08-21.23:01:28::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-08-21.23:01:28::SCWPlatform::Started generating the artifacts for system configuration tb
+LOG::2025-08-21.23:01:28::SCWSystem::Checking the domain device_tree_domain
+LOG::2025-08-21.23:01:28::SCWSystem::Not a boot domain 
+LOG::2025-08-21.23:01:28::SCWSystem::Started Processing the domain device_tree_domain
+TRACE::2025-08-21.23:01:28::SCWDomain::Generating domain artifcats
+TRACE::2025-08-21.23:01:28::SCWMssOS::Generating standalone artifcats
+TRACE::2025-08-21.23:01:28::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/qemu/
+TRACE::2025-08-21.23:01:28::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/qemu/
+TRACE::2025-08-21.23:01:28::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/device_tree_domain/qemu/
+TRACE::2025-08-21.23:01:28::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/device_tree_domain/qemu/
+TRACE::2025-08-21.23:01:28::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Completed writing the mss file at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-21.23:01:28::SCWMssOS::Mss edits present, copying mssfile into export location /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-08-21.23:01:28::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-08-21.23:01:28::SCWDomain::Skipping the build for domain :  device_tree_domain
+TRACE::2025-08-21.23:01:28::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-08-21.23:01:28::SCWMssOS::Copying to export directory.
+TRACE::2025-08-21.23:01:28::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-08-21.23:01:28::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-08-21.23:01:28::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-08-21.23:01:28::SCWSystem::Completed Processing the domain device_tree_domain
+LOG::2025-08-21.23:01:28::SCWSystem::Completed Processing the sysconfig tb
+LOG::2025-08-21.23:01:28::SCWPlatform::Completed generating the artifacts for system configuration tb
+TRACE::2025-08-21.23:01:28::SCWPlatform::Started preparing the platform 
+TRACE::2025-08-21.23:01:28::SCWSystem::Writing the bif file for system config tb
+TRACE::2025-08-21.23:01:28::SCWSystem::dir created 
+TRACE::2025-08-21.23:01:28::SCWSystem::Writing the bif 
+TRACE::2025-08-21.23:01:28::SCWPlatform::Started writing the spfm file 
+TRACE::2025-08-21.23:01:28::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-08-21.23:01:28::SCWPlatform::Completed generating the platform
+TRACE::2025-08-21.23:01:28::SCWMssOS::Saving the mss changes /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Commit changes completed.
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"tb",
+	"systems":	[{
+			"systemName":	"tb",
+			"systemDesc":	"tb",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"tb",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/tb/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/tb/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/tb/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a55f2fdc7f879f86835868afa0de62b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-08-21.23:01:28::SCWPlatform::updated the xpfm file.
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Saving the mss changes /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Commit changes completed.
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"tb",
+	"systems":	[{
+			"systemName":	"tb",
+			"systemDesc":	"tb",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"tb",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/tb/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/tb/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/tb/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a55f2fdc7f879f86835868afa0de62b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Saving the mss changes /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-21.23:01:28::SCWMssOS::Commit changes completed.
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"tb",
+	"systems":	[{
+			"systemName":	"tb",
+			"systemDesc":	"tb",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"tb",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree on psu_cortexa53_0",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/tb/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/tb/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/tb/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a55f2fdc7f879f86835868afa0de62b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:28::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:28::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:28::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:28::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:28::SCWMssOS::Completed writing the mss file at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-21.23:01:28::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2025-08-21.23:01:50::SCWPlatform::Started generating the artifacts platform tb
+TRACE::2025-08-21.23:01:50::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-08-21.23:01:50::SCWPlatform::Started generating the artifacts for system configuration tb
+LOG::2025-08-21.23:01:50::SCWSystem::Checking the domain device_tree_domain
+LOG::2025-08-21.23:01:50::SCWSystem::Not a boot domain 
+LOG::2025-08-21.23:01:50::SCWSystem::Started Processing the domain device_tree_domain
+TRACE::2025-08-21.23:01:50::SCWDomain::Generating domain artifcats
+TRACE::2025-08-21.23:01:50::SCWMssOS::Generating standalone artifcats
+TRACE::2025-08-21.23:01:50::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/qemu/
+TRACE::2025-08-21.23:01:50::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/qemu/
+TRACE::2025-08-21.23:01:50::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/device_tree_domain/qemu/
+TRACE::2025-08-21.23:01:50::SCWMssOS::Copying the qemu file from  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/resources/tb/device_tree_domain/qemu_args.txt To /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/export/tb/sw/tb/device_tree_domain/qemu/
+TRACE::2025-08-21.23:01:50::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:50::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-08-21.23:01:50::SCWMssOS::No sw design opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::mss exists loading the mss file  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::Opened the sw design from mss  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::Adding the swdes entry /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name system
+TRACE::2025-08-21.23:01:50::SCWMssOS::updating the scw layer about changes
+TRACE::2025-08-21.23:01:50::SCWMssOS::Opened the sw design.  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::Completed writing the mss file at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-21.23:01:50::SCWMssOS::Mss edits present, copying mssfile into export location /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-08-21.23:01:50::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-08-21.23:01:50::SCWDomain::Building the domain as part of full build :  device_tree_domain
+TRACE::2025-08-21.23:01:50::SCWMssOS::doing bsp build ... 
+TRACE::2025-08-21.23:01:50::SCWMssOS::System Command Ran  cd  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp ; bash -c "make  " 
+TRACE::2025-08-21.23:01:50::SCWMssOS::make: Nothing to be done for 'all'.
+
+TRACE::2025-08-21.23:01:50::SCWMssOS::Copying to export directory.
+TRACE::2025-08-21.23:01:50::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-08-21.23:01:50::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-08-21.23:01:50::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-08-21.23:01:50::SCWSystem::Completed Processing the domain device_tree_domain
+LOG::2025-08-21.23:01:50::SCWSystem::Completed Processing the sysconfig tb
+LOG::2025-08-21.23:01:50::SCWPlatform::Completed generating the artifacts for system configuration tb
+TRACE::2025-08-21.23:01:50::SCWPlatform::Started preparing the platform 
+TRACE::2025-08-21.23:01:50::SCWSystem::Writing the bif file for system config tb
+TRACE::2025-08-21.23:01:50::SCWSystem::dir created 
+TRACE::2025-08-21.23:01:50::SCWSystem::Writing the bif 
+TRACE::2025-08-21.23:01:50::SCWPlatform::Started writing the spfm file 
+TRACE::2025-08-21.23:01:50::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-08-21.23:01:50::SCWPlatform::Completed generating the platform
+TRACE::2025-08-21.23:01:50::SCWMssOS::Saving the mss changes /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-21.23:01:50::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-21.23:01:50::SCWMssOS::Commit changes completed.
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:50::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:50::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:50::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:50::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWWriter::formatted JSON is {
+	"platformName":	"tb",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"tb",
+	"platHandOff":	"/home/coppholl/TB_DMA/./DMA_ADDER_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMA_ADDER_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"tb",
+	"systems":	[{
+			"systemName":	"tb",
+			"systemDesc":	"tb",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"tb",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree on psu_cortexa53_0",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/tb/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/tb/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/tb/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"47c78e97b782b4d187b04e1b66a23793",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"device_tree":	{
+							"dt_overlay":	"true",
+							"dt_zocl":	"true",
+							"overlay_custom_dts":	"pl-final.dts",
+							"libOptionNames":	["dt_overlay", "dt_zocl", "overlay_custom_dts"]
+						},
+						"libsContainingOptions":	["device_tree"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-08-21.23:01:50::SCWPlatform::updated the xpfm file.
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to open the hw design at /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA given /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA absoulate path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform::DSA directory /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Platform Path /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/hw/DMA_ADDER_wrapper.xsa
+TRACE::2025-08-21.23:01:50::SCWPlatform:: Unique name vendor:kr260_som:tb:1.0
+TRACE::2025-08-21.23:01:50::SCWPlatform::Trying to set the existing hwdb with name DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Opened existing hwdb DMA_ADDER_wrapper_1
+TRACE::2025-08-21.23:01:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-21.23:01:50::SCWMssOS::Checking the sw design at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-21.23:01:50::SCWMssOS::DEBUG:  swdes dump  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-21.23:01:50::SCWMssOS::Sw design exists and opened at  /home/coppholl/TB_DMA/dtg_output/dtg_output/tb/psu_cortexa53_0/device_tree_domain/bsp/system.mss

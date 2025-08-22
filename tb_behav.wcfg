@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_sg_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="lib_pkg" />
+            <top_module name="std" />
+            <top_module name="tb" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="41,406.666 ns"></ZoomStartTime>
+      <ZoomEndTime time="43,748.667 ns"></ZoomEndTime>
+      <Cursor1Time time="42,065.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="298"></NameColumnWidth>
+      <ValueColumnWidth column_width="238"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject type="logic" fp_name="/tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/mm2s_introut_0">
+      <obj_property name="ElementShortName">mm2s_introut_0</obj_property>
+      <obj_property name="ObjectShortName">mm2s_introut_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/s2mm_introut">
+      <obj_property name="ElementShortName">s2mm_introut</obj_property>
+      <obj_property name="ObjectShortName">s2mm_introut</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/LED0">
+      <obj_property name="ElementShortName">LED0[0:0]</obj_property>
+      <obj_property name="ObjectShortName">LED0[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/LED1">
+      <obj_property name="ElementShortName">LED1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">LED1[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/data">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/read_addr">
+      <obj_property name="ElementShortName">read_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group948">
+      <obj_property name="label">New Group 100</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_aclk">
+         <obj_property name="ElementShortName">s_axi_lite_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_aclk">
+         <obj_property name="ElementShortName">m_axi_sg_aclk</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_aclk">
+         <obj_property name="ElementShortName">m_axi_mm2s_aclk</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_aclk">
+         <obj_property name="ElementShortName">m_axi_s2mm_aclk</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/axi_resetn">
+         <obj_property name="ElementShortName">axi_resetn</obj_property>
+         <obj_property name="ObjectShortName">axi_resetn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_awvalid">
+         <obj_property name="ElementShortName">s_axi_lite_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_awready">
+         <obj_property name="ElementShortName">s_axi_lite_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_awaddr">
+         <obj_property name="ElementShortName">s_axi_lite_awaddr[9:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_awaddr[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_wvalid">
+         <obj_property name="ElementShortName">s_axi_lite_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_wready">
+         <obj_property name="ElementShortName">s_axi_lite_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_wdata">
+         <obj_property name="ElementShortName">s_axi_lite_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_bresp">
+         <obj_property name="ElementShortName">s_axi_lite_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_bvalid">
+         <obj_property name="ElementShortName">s_axi_lite_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_bready">
+         <obj_property name="ElementShortName">s_axi_lite_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_bready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_arvalid">
+         <obj_property name="ElementShortName">s_axi_lite_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_arready">
+         <obj_property name="ElementShortName">s_axi_lite_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_araddr">
+         <obj_property name="ElementShortName">s_axi_lite_araddr[9:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_araddr[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_rvalid">
+         <obj_property name="ElementShortName">s_axi_lite_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_rready">
+         <obj_property name="ElementShortName">s_axi_lite_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_rdata">
+         <obj_property name="ElementShortName">s_axi_lite_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axi_lite_rresp">
+         <obj_property name="ElementShortName">s_axi_lite_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_lite_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awaddr">
+         <obj_property name="ElementShortName">m_axi_sg_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awlen">
+         <obj_property name="ElementShortName">m_axi_sg_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awsize">
+         <obj_property name="ElementShortName">m_axi_sg_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awburst">
+         <obj_property name="ElementShortName">m_axi_sg_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awprot">
+         <obj_property name="ElementShortName">m_axi_sg_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awcache">
+         <obj_property name="ElementShortName">m_axi_sg_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awvalid">
+         <obj_property name="ElementShortName">m_axi_sg_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_awready">
+         <obj_property name="ElementShortName">m_axi_sg_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_wdata">
+         <obj_property name="ElementShortName">m_axi_sg_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_wstrb">
+         <obj_property name="ElementShortName">m_axi_sg_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_wlast">
+         <obj_property name="ElementShortName">m_axi_sg_wlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_wvalid">
+         <obj_property name="ElementShortName">m_axi_sg_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_wready">
+         <obj_property name="ElementShortName">m_axi_sg_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_bresp">
+         <obj_property name="ElementShortName">m_axi_sg_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_bvalid">
+         <obj_property name="ElementShortName">m_axi_sg_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_bready">
+         <obj_property name="ElementShortName">m_axi_sg_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_araddr">
+         <obj_property name="ElementShortName">m_axi_sg_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arlen">
+         <obj_property name="ElementShortName">m_axi_sg_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arsize">
+         <obj_property name="ElementShortName">m_axi_sg_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arburst">
+         <obj_property name="ElementShortName">m_axi_sg_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arprot">
+         <obj_property name="ElementShortName">m_axi_sg_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arcache">
+         <obj_property name="ElementShortName">m_axi_sg_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arvalid">
+         <obj_property name="ElementShortName">m_axi_sg_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_arready">
+         <obj_property name="ElementShortName">m_axi_sg_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_rdata">
+         <obj_property name="ElementShortName">m_axi_sg_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_rresp">
+         <obj_property name="ElementShortName">m_axi_sg_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_rlast">
+         <obj_property name="ElementShortName">m_axi_sg_rlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_rvalid">
+         <obj_property name="ElementShortName">m_axi_sg_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_sg_rready">
+         <obj_property name="ElementShortName">m_axi_sg_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_sg_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_araddr">
+         <obj_property name="ElementShortName">m_axi_mm2s_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arlen">
+         <obj_property name="ElementShortName">m_axi_mm2s_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arsize">
+         <obj_property name="ElementShortName">m_axi_mm2s_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arburst">
+         <obj_property name="ElementShortName">m_axi_mm2s_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arprot">
+         <obj_property name="ElementShortName">m_axi_mm2s_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arcache">
+         <obj_property name="ElementShortName">m_axi_mm2s_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arvalid">
+         <obj_property name="ElementShortName">m_axi_mm2s_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_arready">
+         <obj_property name="ElementShortName">m_axi_mm2s_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_rdata">
+         <obj_property name="ElementShortName">m_axi_mm2s_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_rresp">
+         <obj_property name="ElementShortName">m_axi_mm2s_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_rlast">
+         <obj_property name="ElementShortName">m_axi_mm2s_rlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_rvalid">
+         <obj_property name="ElementShortName">m_axi_mm2s_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_mm2s_rready">
+         <obj_property name="ElementShortName">m_axi_mm2s_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_mm2s_rready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/mm2s_prmry_reset_out_n">
+         <obj_property name="ElementShortName">mm2s_prmry_reset_out_n</obj_property>
+         <obj_property name="ObjectShortName">mm2s_prmry_reset_out_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axis_mm2s_tdata">
+         <obj_property name="ElementShortName">m_axis_mm2s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_mm2s_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axis_mm2s_tkeep">
+         <obj_property name="ElementShortName">m_axis_mm2s_tkeep[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_mm2s_tkeep[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axis_mm2s_tvalid">
+         <obj_property name="ElementShortName">m_axis_mm2s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_mm2s_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axis_mm2s_tready">
+         <obj_property name="ElementShortName">m_axis_mm2s_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_mm2s_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axis_mm2s_tlast">
+         <obj_property name="ElementShortName">m_axis_mm2s_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_mm2s_tlast</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awaddr">
+         <obj_property name="ElementShortName">m_axi_s2mm_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awlen">
+         <obj_property name="ElementShortName">m_axi_s2mm_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awsize">
+         <obj_property name="ElementShortName">m_axi_s2mm_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awburst">
+         <obj_property name="ElementShortName">m_axi_s2mm_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awprot">
+         <obj_property name="ElementShortName">m_axi_s2mm_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awcache">
+         <obj_property name="ElementShortName">m_axi_s2mm_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awvalid">
+         <obj_property name="ElementShortName">m_axi_s2mm_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_awready">
+         <obj_property name="ElementShortName">m_axi_s2mm_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_wdata">
+         <obj_property name="ElementShortName">m_axi_s2mm_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_wstrb">
+         <obj_property name="ElementShortName">m_axi_s2mm_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_wlast">
+         <obj_property name="ElementShortName">m_axi_s2mm_wlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_wvalid">
+         <obj_property name="ElementShortName">m_axi_s2mm_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_wready">
+         <obj_property name="ElementShortName">m_axi_s2mm_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_bresp">
+         <obj_property name="ElementShortName">m_axi_s2mm_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_bvalid">
+         <obj_property name="ElementShortName">m_axi_s2mm_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/m_axi_s2mm_bready">
+         <obj_property name="ElementShortName">m_axi_s2mm_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_s2mm_bready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s2mm_prmry_reset_out_n">
+         <obj_property name="ElementShortName">s2mm_prmry_reset_out_n</obj_property>
+         <obj_property name="ObjectShortName">s2mm_prmry_reset_out_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axis_s2mm_tdata">
+         <obj_property name="ElementShortName">s_axis_s2mm_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_s2mm_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axis_s2mm_tkeep">
+         <obj_property name="ElementShortName">s_axis_s2mm_tkeep[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_s2mm_tkeep[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axis_s2mm_tvalid">
+         <obj_property name="ElementShortName">s_axis_s2mm_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_s2mm_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axis_s2mm_tready">
+         <obj_property name="ElementShortName">s_axis_s2mm_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_s2mm_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s_axis_s2mm_tlast">
+         <obj_property name="ElementShortName">s_axis_s2mm_tlast</obj_property>
+         <obj_property name="ObjectShortName">s_axis_s2mm_tlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/mm2s_introut">
+         <obj_property name="ElementShortName">mm2s_introut</obj_property>
+         <obj_property name="ObjectShortName">mm2s_introut</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/axi_dma_0/s2mm_introut">
+         <obj_property name="ElementShortName">s2mm_introut</obj_property>
+         <obj_property name="ObjectShortName">s2mm_introut</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/axi_dma_0/axi_dma_tstvec">
+         <obj_property name="ElementShortName">axi_dma_tstvec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_dma_tstvec[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/tb/DUT/design_1_i/axi_dma_0/M_AXIS_MM2S">
+         <obj_property name="children_use_element_short_name">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00E600</obj_property>
+         <obj_property name="Render_Data">/tb/DUT/design_1_i/axi_dma_0/M_AXIS_MM2S.streamWaveData</obj_property>
+         <obj_property name="Number_Overlay">2</obj_property>
+         <obj_property name="Overlay_Object_0">/tb/DUT/design_1_i/axi_dma_0/M_AXIS_MM2S.linkStarve</obj_property>
+         <obj_property name="Overlay_Color_0">#99E600</obj_property>
+         <obj_property name="Overlay_Object_1">/tb/DUT/design_1_i/axi_dma_0/M_AXIS_MM2S.linkStall</obj_property>
+         <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+         <obj_property name="Detail_Data">/tb/DUT/design_1_i/axi_dma_0/M_AXIS_MM2S.streamTooltipData</obj_property>
+         <obj_property name="ElementShortName">M_AXIS_MM2S</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_MM2S</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/tb/DUT/design_1_i/axi_dma_0/M_AXI_MM2S">
+         <obj_property name="ElementShortName">M_AXI_MM2S</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_MM2S</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/tb/DUT/design_1_i/axi_dma_0/S_AXIS_S2MM">
+         <obj_property name="children_use_element_short_name">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00E600</obj_property>
+         <obj_property name="Render_Data">/tb/DUT/design_1_i/axi_dma_0/S_AXIS_S2MM.streamWaveData</obj_property>
+         <obj_property name="Number_Overlay">2</obj_property>
+         <obj_property name="Overlay_Object_0">/tb/DUT/design_1_i/axi_dma_0/S_AXIS_S2MM.linkStarve</obj_property>
+         <obj_property name="Overlay_Color_0">#99E600</obj_property>
+         <obj_property name="Overlay_Object_1">/tb/DUT/design_1_i/axi_dma_0/S_AXIS_S2MM.linkStall</obj_property>
+         <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+         <obj_property name="Detail_Data">/tb/DUT/design_1_i/axi_dma_0/S_AXIS_S2MM.streamTooltipData</obj_property>
+         <obj_property name="ElementShortName">S_AXIS_S2MM</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_S2MM</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/tb/DUT/design_1_i/axi_dma_0/S_AXI_LITE">
+         <obj_property name="ElementShortName">S_AXI_LITE</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_LITE</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1208">
+      <obj_property name="label">IP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/adder_IP_inst/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/adder_IP_inst/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/adder_IP_inst/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/adder_IP_inst/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/adder_IP_inst/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1158">
+      <obj_property name="label">ADDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/led0">
+         <obj_property name="ElementShortName">led0[0:0]</obj_property>
+         <obj_property name="ObjectShortName">led0[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/led1">
+         <obj_property name="ElementShortName">led1[0:0]</obj_property>
+         <obj_property name="ObjectShortName">led1[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_aclk">
+         <obj_property name="ElementShortName">s00_axi_aclk</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_aresetn">
+         <obj_property name="ElementShortName">s00_axi_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_aresetn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_awaddr">
+         <obj_property name="ElementShortName">s00_axi_awaddr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awaddr[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_awprot">
+         <obj_property name="ElementShortName">s00_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_awvalid">
+         <obj_property name="ElementShortName">s00_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_awready">
+         <obj_property name="ElementShortName">s00_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_wdata">
+         <obj_property name="ElementShortName">s00_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_wstrb">
+         <obj_property name="ElementShortName">s00_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_wvalid">
+         <obj_property name="ElementShortName">s00_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_wready">
+         <obj_property name="ElementShortName">s00_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_bresp">
+         <obj_property name="ElementShortName">s00_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_bvalid">
+         <obj_property name="ElementShortName">s00_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_bready">
+         <obj_property name="ElementShortName">s00_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_araddr">
+         <obj_property name="ElementShortName">s00_axi_araddr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_araddr[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_arprot">
+         <obj_property name="ElementShortName">s00_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_arvalid">
+         <obj_property name="ElementShortName">s00_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_arready">
+         <obj_property name="ElementShortName">s00_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_rdata">
+         <obj_property name="ElementShortName">s00_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_rresp">
+         <obj_property name="ElementShortName">s00_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_rvalid">
+         <obj_property name="ElementShortName">s00_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axi_rready">
+         <obj_property name="ElementShortName">s00_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s00_axi_rready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_aclk">
+         <obj_property name="ElementShortName">s00_axis_aclk</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_aresetn">
+         <obj_property name="ElementShortName">s00_axis_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_aresetn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_tready">
+         <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_tdata">
+         <obj_property name="ElementShortName">s00_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_tstrb">
+         <obj_property name="ElementShortName">s00_axis_tstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_tlast">
+         <obj_property name="ElementShortName">s00_axis_tlast</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s00_axis_tvalid">
+         <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_aclk">
+         <obj_property name="ElementShortName">m00_axis_aclk</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_aresetn">
+         <obj_property name="ElementShortName">m00_axis_aresetn</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_aresetn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_tvalid">
+         <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_tdata">
+         <obj_property name="ElementShortName">m00_axis_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_tstrb">
+         <obj_property name="ElementShortName">m00_axis_tstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_tstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_tlast">
+         <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/m00_axis_tready">
+         <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/start_signal">
+         <obj_property name="ElementShortName">start_signal</obj_property>
+         <obj_property name="ObjectShortName">start_signal</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/slv_reg0">
+         <obj_property name="ElementShortName">slv_reg0</obj_property>
+         <obj_property name="ObjectShortName">slv_reg0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/enable_adder">
+         <obj_property name="ElementShortName">enable_adder</obj_property>
+         <obj_property name="ObjectShortName">enable_adder</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/data_in_adder">
+         <obj_property name="ElementShortName">data_in_adder</obj_property>
+         <obj_property name="ObjectShortName">data_in_adder</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s_axis_aclk">
+         <obj_property name="ElementShortName">s_axis_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/data_out_adder">
+         <obj_property name="ElementShortName">data_out_adder</obj_property>
+         <obj_property name="ObjectShortName">data_out_adder</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/s_axis_aresetn">
+         <obj_property name="ElementShortName">s_axis_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aresetn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/C_S00_AXI_DATA_WIDTH">
+         <obj_property name="ElementShortName">C_S00_AXI_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_S00_AXI_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/C_S00_AXI_ADDR_WIDTH">
+         <obj_property name="ElementShortName">C_S00_AXI_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_S00_AXI_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/C_S00_AXIS_TDATA_WIDTH">
+         <obj_property name="ElementShortName">C_S00_AXIS_TDATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_S00_AXIS_TDATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/C_M00_AXIS_TDATA_WIDTH">
+         <obj_property name="ElementShortName">C_M00_AXIS_TDATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_M00_AXIS_TDATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/C_M00_AXIS_START_COUNT">
+         <obj_property name="ElementShortName">C_M00_AXIS_START_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_M00_AXIS_START_COUNT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1209">
+      <obj_property name="label">MASTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/enable_adder">
+         <obj_property name="ElementShortName">enable_adder</obj_property>
+         <obj_property name="ObjectShortName">enable_adder</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/data_out_adder">
+         <obj_property name="ElementShortName">data_out_adder[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_adder[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_ACLK">
+         <obj_property name="ElementShortName">M_AXIS_ACLK</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_ACLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_ARESETN">
+         <obj_property name="ElementShortName">M_AXIS_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_ARESETN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_TVALID">
+         <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_TDATA">
+         <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_TSTRB">
+         <obj_property name="ElementShortName">M_AXIS_TSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_TLAST">
+         <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/M_AXIS_TREADY">
+         <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/mst_exec_state">
+         <obj_property name="ElementShortName">mst_exec_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">mst_exec_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/read_pointer">
+         <obj_property name="ElementShortName">read_pointer[3:0]</obj_property>
+         <obj_property name="ObjectShortName">read_pointer[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/count">
+         <obj_property name="ElementShortName">count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">count[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/axis_tvalid">
+         <obj_property name="ElementShortName">axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/axis_tvalid_delay">
+         <obj_property name="ElementShortName">axis_tvalid_delay</obj_property>
+         <obj_property name="ObjectShortName">axis_tvalid_delay</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/axis_tlast">
+         <obj_property name="ElementShortName">axis_tlast</obj_property>
+         <obj_property name="ObjectShortName">axis_tlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/axis_tlast_delay">
+         <obj_property name="ElementShortName">axis_tlast_delay</obj_property>
+         <obj_property name="ObjectShortName">axis_tlast_delay</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/stream_data_out">
+         <obj_property name="ElementShortName">stream_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">stream_data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/tx_en">
+         <obj_property name="ElementShortName">tx_en</obj_property>
+         <obj_property name="ObjectShortName">tx_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/tx_done">
+         <obj_property name="ElementShortName">tx_done</obj_property>
+         <obj_property name="ObjectShortName">tx_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/C_M_AXIS_TDATA_WIDTH">
+         <obj_property name="ElementShortName">C_M_AXIS_TDATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_M_AXIS_TDATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/C_M_START_COUNT">
+         <obj_property name="ElementShortName">C_M_START_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_M_START_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/NUMBER_OF_OUTPUT_WORDS">
+         <obj_property name="ElementShortName">NUMBER_OF_OUTPUT_WORDS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_OUTPUT_WORDS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/WAIT_COUNT_BITS">
+         <obj_property name="ElementShortName">WAIT_COUNT_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WAIT_COUNT_BITS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/bit_num">
+         <obj_property name="ElementShortName">bit_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_num[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/IDLE">
+         <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/INIT_COUNTER">
+         <obj_property name="ElementShortName">INIT_COUNTER[1:0]</obj_property>
+         <obj_property name="ObjectShortName">INIT_COUNTER[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_master_stream_v1_0_M00_AXIS_inst/SEND_STREAM">
+         <obj_property name="ElementShortName">SEND_STREAM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEND_STREAM[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1210">
+      <obj_property name="label">SLAVE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/start_signal">
+         <obj_property name="ElementShortName">start_signal</obj_property>
+         <obj_property name="ObjectShortName">start_signal</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/enable_adder">
+         <obj_property name="ElementShortName">enable_adder</obj_property>
+         <obj_property name="ObjectShortName">enable_adder</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/data_in_adder">
+         <obj_property name="ElementShortName">data_in_adder[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_adder[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_ACLK">
+         <obj_property name="ElementShortName">S_AXIS_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_ACLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_ARESETN">
+         <obj_property name="ElementShortName">S_AXIS_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_ARESETN</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_TREADY">
+         <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_TDATA">
+         <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_TSTRB">
+         <obj_property name="ElementShortName">S_AXIS_TSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_TLAST">
+         <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/S_AXIS_TVALID">
+         <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/axis_tready">
+         <obj_property name="ElementShortName">axis_tready</obj_property>
+         <obj_property name="ObjectShortName">axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/mst_exec_state">
+         <obj_property name="ElementShortName">mst_exec_state</obj_property>
+         <obj_property name="ObjectShortName">mst_exec_state</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/fifo_wren">
+         <obj_property name="ElementShortName">fifo_wren</obj_property>
+         <obj_property name="ObjectShortName">fifo_wren</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/fifo_full_flag">
+         <obj_property name="ElementShortName">fifo_full_flag</obj_property>
+         <obj_property name="ObjectShortName">fifo_full_flag</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/write_pointer">
+         <obj_property name="ElementShortName">write_pointer[2:0]</obj_property>
+         <obj_property name="ObjectShortName">write_pointer[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/writes_done">
+         <obj_property name="ElementShortName">writes_done</obj_property>
+         <obj_property name="ObjectShortName">writes_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/\FIFO_GEN[0].stream_data_fifo ">
+         <obj_property name="ElementShortName">\FIFO_GEN[0].stream_data_fifo [0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\FIFO_GEN[0].stream_data_fifo [0:7][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/\FIFO_GEN[1].stream_data_fifo ">
+         <obj_property name="ElementShortName">\FIFO_GEN[1].stream_data_fifo [0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\FIFO_GEN[1].stream_data_fifo [0:7][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/\FIFO_GEN[2].stream_data_fifo ">
+         <obj_property name="ElementShortName">\FIFO_GEN[2].stream_data_fifo [0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\FIFO_GEN[2].stream_data_fifo [0:7][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/\FIFO_GEN[3].stream_data_fifo ">
+         <obj_property name="ElementShortName">\FIFO_GEN[3].stream_data_fifo [0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">\FIFO_GEN[3].stream_data_fifo [0:7][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/C_S_AXIS_TDATA_WIDTH">
+         <obj_property name="ElementShortName">C_S_AXIS_TDATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_S_AXIS_TDATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/NUMBER_OF_INPUT_WORDS">
+         <obj_property name="ElementShortName">NUMBER_OF_INPUT_WORDS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_INPUT_WORDS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/bit_num">
+         <obj_property name="ElementShortName">bit_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_num[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/IDLE">
+         <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/design_1_i/ADDER_0/inst/LEDAdderDMA_slave_stream_v1_0_S00_AXIS_inst/WRITE_FIFO">
+         <obj_property name="ElementShortName">WRITE_FIFO[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WRITE_FIFO[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

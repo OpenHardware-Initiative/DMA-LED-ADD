@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/DMA_ADDER/ip/DMA_ADDER_axi_dma_0_0/sim/DMA_ADDER_axi_dma_0_0.vhd" \
+"../../../bd/DMA_ADDER/ip/DMA_ADDER_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_037c_psr_aclk_0.vhd" \
+"../../../bd/DMA_ADDER/ip/DMA_ADDER_proc_sys_reset_0_0/sim/DMA_ADDER_proc_sys_reset_0_0.vhd" \
+"../../../bd/DMA_ADDER/ip/DMA_ADDER_debug_bridge_0_0/bd_0/ip/ip_1/sim/bd_8f93_bsip_0.vhd" \
+
+# Do not sort compile order
+nosort

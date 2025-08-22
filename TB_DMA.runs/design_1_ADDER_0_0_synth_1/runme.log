@@ -1,0 +1,335 @@
+
+*** Running vivado
+    with args -log design_1_ADDER_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ADDER_0_0.tcl
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Thu Aug 21 21:27:58 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_ADDER_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1380.328 ; gain = 23.836 ; free physical = 7506 ; free virtual = 13192
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/coppholl/ip_repo/ADDER_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/coppholl/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ADDER_0_0
+Command: synth_design -top design_1_ADDER_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 15209
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2654.105 ; gain = 306.691 ; free physical = 5942 ; free virtual = 11628
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11065] parameter 'IDLE' becomes localparam in 'LEDAdderDMA_slave_stream_v1_0_S00_AXIS' with formal parameter declaration list [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_stream_v1_0_S00_AXIS.v:53]
+WARNING: [Synth 8-11065] parameter 'WRITE_FIFO' becomes localparam in 'LEDAdderDMA_slave_stream_v1_0_S00_AXIS' with formal parameter declaration list [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_stream_v1_0_S00_AXIS.v:55]
+WARNING: [Synth 8-11065] parameter 'IDLE' becomes localparam in 'LEDAdderDMA_master_stream_v1_0_M00_AXIS' with formal parameter declaration list [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v:59]
+WARNING: [Synth 8-11065] parameter 'INIT_COUNTER' becomes localparam in 'LEDAdderDMA_master_stream_v1_0_M00_AXIS' with formal parameter declaration list [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v:61]
+WARNING: [Synth 8-11065] parameter 'SEND_STREAM' becomes localparam in 'LEDAdderDMA_master_stream_v1_0_M00_AXIS' with formal parameter declaration list [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v:64]
+INFO: [Synth 8-11241] undeclared symbol 'slv_reg0', assumed default net type 'wire' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER.v:104]
+INFO: [Synth 8-11241] undeclared symbol 'start_signal', assumed default net type 'wire' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER.v:119]
+WARNING: [Synth 8-8895] 'start_signal' is already implicitly declared on line 119 [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER.v:144]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ADDER_0_0' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ip/design_1_ADDER_0_0/synth/design_1_ADDER_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'ADDER' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER.v:4]
+INFO: [Synth 8-6157] synthesizing module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_lite_v1_0_S00_AXI.v:141]
+INFO: [Synth 8-226] default block is never used [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_lite_v1_0_S00_AXI.v:215]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_lite_v1_0_S00_AXI.v:268]
+INFO: [Synth 8-6155] done synthesizing module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI' (0#1) [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_lite_v1_0_S00_AXI.v:4]
+WARNING: [Synth 8-689] width (1) of port connection 'slv_reg0_out' does not match port width (32) of module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER.v:104]
+INFO: [Synth 8-6157] synthesizing module 'LEDAdderDMA_slave_stream_v1_0_S00_AXIS' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_stream_v1_0_S00_AXIS.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'LEDAdderDMA_slave_stream_v1_0_S00_AXIS' (0#1) [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_slave_stream_v1_0_S00_AXIS.v:4]
+INFO: [Synth 8-6157] synthesizing module 'LEDAdderDMA_master_stream_v1_0_M00_AXIS' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v:107]
+INFO: [Synth 8-6155] done synthesizing module 'LEDAdderDMA_master_stream_v1_0_M00_AXIS' (0#1) [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v:4]
+INFO: [Synth 8-6157] synthesizing module 'adder_IP' [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/src/adder_IP.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'adder_IP' (0#1) [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/src/adder_IP.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ADDER' (0#1) [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ipshared/6960/hdl/ADDER.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ADDER_0_0' (0#1) [/home/coppholl/TB_DMA/TB_DMA.gen/sources_1/bd/design_1/ip/design_1_ADDER_0_0/synth/design_1_ADDER_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element FIFO_GEN[0].stream_data_fifo_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element FIFO_GEN[1].stream_data_fifo_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element FIFO_GEN[2].stream_data_fifo_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element FIFO_GEN[3].stream_data_fifo_reg was removed. 
+WARNING: [Synth 8-7129] Port data_in[15] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[14] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[13] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[12] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[11] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[10] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[9] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[8] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[7] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[6] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[5] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[4] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[3] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[2] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[1] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[0] in module adder_IP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port enable_adder in module LEDAdderDMA_master_stream_v1_0_M00_AXIS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port start_signal in module LEDAdderDMA_slave_stream_v1_0_S00_AXIS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TSTRB[3] in module LEDAdderDMA_slave_stream_v1_0_S00_AXIS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TSTRB[2] in module LEDAdderDMA_slave_stream_v1_0_S00_AXIS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TSTRB[1] in module LEDAdderDMA_slave_stream_v1_0_S00_AXIS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXIS_TSTRB[0] in module LEDAdderDMA_slave_stream_v1_0_S00_AXIS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module LEDAdderDMA_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module LEDAdderDMA_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module LEDAdderDMA_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module LEDAdderDMA_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module LEDAdderDMA_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module LEDAdderDMA_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2737.074 ; gain = 389.660 ; free physical = 5838 ; free virtual = 11524
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2740.043 ; gain = 392.629 ; free physical = 5838 ; free virtual = 11524
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2740.043 ; gain = 392.629 ; free physical = 5838 ; free virtual = 11524
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2740.043 ; gain = 0.000 ; free physical = 5838 ; free virtual = 11524
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2851.012 ; gain = 0.000 ; free physical = 5836 ; free virtual = 11523
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2874.824 ; gain = 23.812 ; free physical = 5836 ; free virtual = 11523
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2874.824 ; gain = 527.410 ; free physical = 5852 ; free virtual = 11538
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2882.828 ; gain = 535.414 ; free physical = 5852 ; free virtual = 11538
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2882.828 ; gain = 535.414 ; free physical = 5852 ; free virtual = 11538
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'mst_exec_state_reg' in module 'LEDAdderDMA_master_stream_v1_0_M00_AXIS'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'LEDAdderDMA_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+            INIT_COUNTER |                               01 |                               01
+             SEND_STREAM |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mst_exec_state_reg' using encoding 'sequential' in module 'LEDAdderDMA_master_stream_v1_0_M00_AXIS'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2882.828 ; gain = 535.414 ; free physical = 5851 ; free virtual = 11539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 5     
+	   4 Input   32 Bit        Muxes := 5     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 11    
+	   3 Input    1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3917] design design_1_ADDER_0_0 has port m00_axis_tstrb[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_ADDER_0_0 has port m00_axis_tstrb[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_ADDER_0_0 has port m00_axis_tstrb[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_ADDER_0_0 has port m00_axis_tstrb[0] driven by constant 1
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axis_tstrb[3] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axis_tstrb[2] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axis_tstrb[1] in module design_1_ADDER_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axis_tstrb[0] in module design_1_ADDER_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2882.828 ; gain = 535.414 ; free physical = 5839 ; free virtual = 11527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 3308.945 ; gain = 961.531 ; free physical = 5431 ; free virtual = 11119
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 3308.945 ; gain = 961.531 ; free physical = 5430 ; free virtual = 11118
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 3327.977 ; gain = 980.562 ; free physical = 5411 ; free virtual = 11099
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11097
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     5|
+|2     |LUT2 |     9|
+|3     |LUT3 |     8|
+|4     |LUT4 |     9|
+|5     |LUT5 |     6|
+|6     |LUT6 |    57|
+|7     |FDRE |   211|
+|8     |FDSE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5409 ; free virtual = 11096
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3333.914 ; gain = 851.719 ; free physical = 5408 ; free virtual = 11096
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 3333.914 ; gain = 986.500 ; free physical = 5408 ; free virtual = 11096
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3333.914 ; gain = 0.000 ; free physical = 5696 ; free virtual = 11384
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3333.914 ; gain = 0.000 ; free physical = 5696 ; free virtual = 11383
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 12664abd
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 3333.914 ; gain = 1903.773 ; free physical = 5695 ; free virtual = 11383
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2728.747; main = 2507.117; forked = 396.365
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4221.027; main = 3316.242; forked = 1029.359
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3340.250 ; gain = 0.000 ; free physical = 5695 ; free virtual = 11383
+INFO: [Common 17-1381] The checkpoint '/home/coppholl/TB_DMA/TB_DMA.runs/design_1_ADDER_0_0_synth_1/design_1_ADDER_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_ADDER_0_0, cache-ID = 7e363391df061040
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3340.250 ; gain = 0.000 ; free physical = 5667 ; free virtual = 11355
+INFO: [Common 17-1381] The checkpoint '/home/coppholl/TB_DMA/TB_DMA.runs/design_1_ADDER_0_0_synth_1/design_1_ADDER_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_ADDER_0_0_utilization_synth.rpt -pb design_1_ADDER_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 21 21:28:41 2025...

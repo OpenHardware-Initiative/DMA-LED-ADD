@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.901715",
+   "Default View_TopLeft":"816,231",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace port port-id_clk_in1_0 -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port port-id_mm2s_introut_0 -pg 1 -lvl 8 -x 2120 -y 520 -defaultsOSRD
+preplace port port-id_s2mm_introut -pg 1 -lvl 8 -x 2120 -y 540 -defaultsOSRD
+preplace portBus LED0 -pg 1 -lvl 8 -x 2120 -y 410 -defaultsOSRD
+preplace portBus LED1 -pg 1 -lvl 8 -x 2120 -y 430 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 400 -y 100 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 150 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 3 -x 690 -y 210 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 960 -y 290 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -x 1320 -y 340 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 6 -x 1740 -y 720 -defaultsOSRD
+preplace inst axi_vip_1 -pg 1 -lvl 7 -x 1990 -y 740 -defaultsOSRD
+preplace inst ADDER_0 -pg 1 -lvl 6 -x 1740 -y 410 -defaultsOSRD
+preplace netloc ADDER_0_led0 1 6 2 NJ 410 NJ
+preplace netloc ADDER_0_led1 1 6 2 NJ 430 NJ
+preplace netloc axi_dma_0_mm2s_introut 1 5 3 1550J 270 NJ 270 2100J
+preplace netloc axi_dma_0_s2mm_introut 1 5 3 1590J 280 NJ 280 2090J
+preplace netloc clk_in1_0_1 1 0 1 NJ 160
+preplace netloc clk_wiz_0_clk_out1 1 1 6 220 200 590 130 810 140 1150 200 1540 900 1880J
+preplace netloc clk_wiz_0_locked 1 1 1 230 140n
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 5 580 120 820 130 NJ 130 1570 910 1890J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 4 NJ 140 800 150 1130 180 1580
+preplace netloc reset_1 1 0 2 10 80 NJ
+preplace netloc ADDER_0_M00_AXIS 1 4 3 1160 190 NJ 190 1880
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 5 1 1560 330n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 5 1 1500 290n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 1480 310n
+preplace netloc axi_dma_0_M_AXI_SG 1 5 1 1490 270n
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 N 280
+preplace netloc axi_interconnect_0_M01_AXI 1 4 2 1140 210 1600J
+preplace netloc axi_interconnect_1_M00_AXI 1 6 1 N 720
+preplace netloc axi_vip_0_M_AXI 1 3 1 N 210
+levelinfo -pg 1 -10 110 400 690 960 1320 1740 1990 2120
+pagesize -pg 1 -db -bbox -sgen -130 0 2290 920
+"
+}
+0

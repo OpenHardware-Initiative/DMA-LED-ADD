@@ -1,0 +1,39 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/3242" --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "/home/coppholl/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
+
+sv xil_defaultlib  --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/3242" --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "/home/coppholl/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0_pkg.sv" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/3242" --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "/home/coppholl/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_xbar_1/sim/design_1_xbar_1.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+
+sv xil_defaultlib  --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/3242" --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "/home/coppholl/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_axi_vip_1_0/sim/design_1_axi_vip_1_0_pkg.sv" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_axi_vip_1_0/sim/design_1_axi_vip_1_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/3242" --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "/home/coppholl/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ipshared/6960/hdl/ADDER_slave_stream_v1_0_S00_AXIS.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ipshared/6960/hdl/ADDER_master_stream_v1_0_M00_AXIS.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ipshared/6960/hdl/ADDER_slave_lite_v1_0_S00_AXI.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ipshared/6960/src/adder_IP.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ipshared/6960/hdl/ADDER.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_ADDER_0_0/sim/design_1_ADDER_0_0.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_s00_mmu_0/sim/design_1_s00_mmu_0.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_s01_mmu_0/sim/design_1_s01_mmu_0.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/ip/design_1_s02_mmu_0/sim/design_1_s02_mmu_0.v" \
+"../../../../TB_DMA.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../TB_DMA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/3242" --include "../../../../TB_DMA.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "/home/coppholl/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../TB_DMA.srcs/sim_1/imports/dma_sim_source_files/tb_dma.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
